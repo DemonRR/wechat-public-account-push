@@ -8,22 +8,22 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx9e4f843ca845b0c5',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '54475b6599269c2d7a7adee6c10278b4',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '安徽',
+  CITY: '阜阳',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oKpXt6SMnUmFZphGxzj6bkcu2Hzc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'TxJhdYcH-YIfoAa1gxATx7uMpmthmmBgwqCEhUccjAU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -51,13 +51,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'vBWGQXGcEbNClgLnRqvyCudeZ-AtYXclgDl_GRXjFRM',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oKpXt6Xx6WvExcsrwLAQZmn0R5nY',
     }
   ],
 
